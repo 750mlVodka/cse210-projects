@@ -22,8 +22,5 @@ class Program
         myResume._jobs.Add(job2);
         
         myResume.Display();
-        
-        job1.Display();
-        job2.Display();
     }
 }
