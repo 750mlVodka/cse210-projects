@@ -33,13 +33,13 @@ class Program
                     break;
 
                 case "3":
-                    Console.Write("Load");
+                    Console.Write("What is the file name? (Load)");
                     string loadFile = Console.ReadLine();
                     journal.LoadFromFile(loadFile);
                     break;
 
                 case "4":
-                    Console.Write("What is the file name?");
+                    Console.Write("What is the file name? (Save)");
                     string saveFile = Console.ReadLine();
                     journal.SaveFile(saveFile);
                     break;
