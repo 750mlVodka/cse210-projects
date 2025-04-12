@@ -32,7 +32,7 @@ public class Activity
 
     public void ShowSpinner(int seconds)
     {
-        char[] spinner = { '|', '/', '-', '\\' };
+        char[] spinner = { '⠋', '⠙', '⠸', '⠴', '⠦', '⠇' };
         DateTime endTime = DateTime.Now.AddSeconds(seconds);
         int i = 0;
         while (DateTime.Now < endTime)
